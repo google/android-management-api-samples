@@ -8,4 +8,4 @@ using the following links:
 
 *   [quickstart.ipynb](https://colab.research.google.com/github/google/android-management-api-samples/blob/master/notebooks/quickstart.ipynb)
 *   [web_apps.ipynb](https://colab.research.google.com/github/google/android-management-api-samples/blob/master/notebooks/web_apps.ipynb)
-*   [app_feedback_channel.ipynb](https://colab.research.google.com/github/google/android-management-api-samples/blob/master/notebooks/app_feedback_channel.ipynb)
+*   [managed_configurations.ipynb](https://colab.research.google.com/github/google/android-management-api-samples/blob/master/notebooks/managed_configurations.ipynb)
