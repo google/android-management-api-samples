@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>OAuth callback</title>
+  <style>
+    body {
+      padding: 3% 1% 3% 1%;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      var url = new URL(window.location.href);
+      var code = url.searchParams.get("code");
+      var input = document.getElementById("code");
+      input.value = code;
+      input.select();
+    };
+    function copy() {
+      var input = document.getElementById("code");
+      navigator.clipboard.writeText(input.value);
+    }
+  </script>
+</head>
+<body>
+  <h2>Copy this OAuth authentication token and paste it in the Colab notebook:</h2>
+  <!-- <p><span id="enterpriseToken"></span> -->
+  <p><input id="code" readonly="readonly" style="width: 600px;"></p>
+  <p><button onclick="copy()"><h4>Copy code</h4></button></p>
+</body>
+</html>
